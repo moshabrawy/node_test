@@ -5,7 +5,8 @@ const sequelize = require("./config/db");
 const cors = require("cors");
 
 /* Routes */
-const userRoutes = require('./routes/userRoutes')
+const userRoutes = require('./routes/userRoutes');
+const blogRoutes = require('./routes/blogRoutes');
 /* sync alter:true 
 ().then(()=>{}) => true
 ().catch(()=>{}) => error
